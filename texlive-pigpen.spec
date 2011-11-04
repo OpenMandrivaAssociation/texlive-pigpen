@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /fonts/pigpen
+# catalog-date 2008-12-10 19:58:48 +0100
+# catalog-license lppl
+# catalog-version 0.2
 Name:		texlive-pigpen
 Version:	0.2
 Release:	1
@@ -47,6 +53,7 @@ file), and macros for its use.
 %doc %{_texmfdistdir}/doc/latex/pigpen/README
 %doc %{_texmfdistdir}/doc/latex/pigpen/pigpendoc.pdf
 %doc %{_texmfdistdir}/doc/latex/pigpen/pigpendoc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +64,5 @@ file), and macros for its use.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
