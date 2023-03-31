@@ -1,6 +1,6 @@
 Name:		texlive-pigpen
 Version:	15878
-Release:	1
+Release:	2
 Summary:	A font for the pigpen (or masonic) cipher
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/pigpen
