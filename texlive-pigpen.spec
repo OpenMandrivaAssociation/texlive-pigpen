@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	A font for the pigpen (or masonic) cipher
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/pigpen
+URL:		https://www.ctan.org/tex-archive/fonts/pigpen
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pigpen.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pigpen.doc.r%{version}.tar.xz
